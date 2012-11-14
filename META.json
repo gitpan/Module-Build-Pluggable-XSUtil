@@ -1,0 +1,73 @@
+{
+   "abstract" : "Utility for XS",
+   "author" : [
+      "Tokuhiro Matsuno E<lt>tokuhirom AAJKLFJEF@ GMAIL COME<gt>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Module-Build-Pluggable-XSUtil",
+   "no_index" : {
+      "directory" : [
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::CBuilder" : "0",
+            "Test::More" : "0.98",
+            "Test::Requires" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.38"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Devel::CheckCompiler" : "0.02",
+            "Devel::CheckLib" : "0.04",
+            "Devel::PPPort" : "3.19",
+            "Exporter" : "0",
+            "ExtUtils::ParseXS" : "2.21",
+            "Module::Build::Pluggable" : "0.04",
+            "XSLoader" : "0.02",
+            "parent" : "0",
+            "perl" : "5.010001"
+         }
+      }
+   },
+   "provides" : {
+      "Devel::WantXS" : {
+         "file" : "lib/Devel/WantXS.pm",
+         "version" : 0
+      },
+      "Devel::XSHelper" : {
+         "file" : "lib/Devel/XSHelper.pm",
+         "version" : "0.01"
+      },
+      "Module::Build::Pluggable::CheckLib" : {
+         "file" : "lib/Module/Build/Pluggable/CheckLib.pm",
+         "version" : "0.01"
+      },
+      "Module::Build::Pluggable::XSUtil" : {
+         "file" : "lib/Module/Build/Pluggable/XSUtil.pm",
+         "version" : "0.01"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0.01"
+}
