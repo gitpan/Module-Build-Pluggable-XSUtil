@@ -41,7 +41,7 @@
             "Module::Build::Pluggable" : "0.04",
             "XSLoader" : "0.02",
             "parent" : "0",
-            "perl" : "5.010001"
+            "perl" : "5.008005"
          }
       }
    },
@@ -60,7 +60,7 @@
       },
       "Module::Build::Pluggable::XSUtil" : {
          "file" : "lib/Module/Build/Pluggable/XSUtil.pm",
-         "version" : "0.01"
+         "version" : "1.00"
       }
    },
    "release_status" : "stable",
@@ -69,5 +69,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.01"
+   "version" : "1.00"
 }

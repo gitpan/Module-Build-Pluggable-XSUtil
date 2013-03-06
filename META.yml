@@ -30,7 +30,7 @@ provides:
     version: 0.01
   Module::Build::Pluggable::XSUtil:
     file: lib/Module/Build/Pluggable/XSUtil.pm
-    version: 0.01
+    version: 1.00
 requires:
   Devel::CheckCompiler: 0.02
   Devel::CheckLib: 0.04
@@ -40,7 +40,7 @@ requires:
   Module::Build::Pluggable: 0.04
   XSLoader: 0.02
   parent: 0
-  perl: 5.010001
+  perl: 5.008005
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.01
+version: 1.00
